@@ -1,5 +1,5 @@
 # Redirection
-ls non-existing-directory 1> stdin.tmp
+ls non-existing-directory 1> stdout.tmp
 ls non-existing-directory 2> stderr.tmp
 ls non-existing-directory 2>&1
 ls non-existing-directory 1>&2
